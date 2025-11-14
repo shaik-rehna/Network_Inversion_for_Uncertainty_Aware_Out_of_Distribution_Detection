@@ -1,2 +1,2 @@
-# Network_Inversion_for_Uncertainty_Aware_Out_of_Distribution_Detection_EE451_SRE
-EE451_Supervised_Research_Exposition_Project
+# Network Inversion for Uncertainty Aware Out of Distribution Detection EE451 SRE
+EE451 Supervised Research Exposition Project
