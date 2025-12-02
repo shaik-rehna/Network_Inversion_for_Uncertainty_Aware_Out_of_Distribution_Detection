@@ -43,7 +43,7 @@ The classifier is evaluated on OOD datasets for AUROC, AUPR and FPR@95TPR
 
 To distinguish **in-distribution (ID)** samples from **out-of-distribution (OOD)** samples, this project uses a principled, lightweight **Uncertainty Estimate (UE)** computed from the classifier’s softmax output.
 
-### **Uncertainty Estimate (UE) Formula**
+ * Formula:
 
 Given classifier logits z, compute the softmax probabilities:
 
