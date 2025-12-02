@@ -38,36 +38,6 @@ The generator is optimized so that:
 
 The classifier is evaluated on OOD datasets for AUROC, AUPR and FPR@95TPR
 
-
-## **Uncertainty Estimation (UE) for OOD Detection**
-
-To distinguish **in-distribution (ID)** samples from **out-of-distribution (OOD)** samples, this project uses a principled, lightweight **Uncertainty Estimate (UE)** computed from the classifier’s softmax output.
-
- * Formula:
-
-Given classifier logits z, compute the softmax probabilities:
-
-$p = \text{softmax}(z)$
-
-Let:
-- K = number of classes
-- u = [1/K, 1/K, ..., 1/K]   (uniform distribution)
-- $\hat{y}$ = one-hot vector of the predicted class
-
-Compute:
-
-$a = \sum_i (p_i - 1/K)^2$
-
-$b = \sum_i (\hat{y}_i - 1/K)^2$
-
-$UE = 1 - (a/b)$
-
-
-* UE ≈ 0 (low uncertainty)
-
-* UE ≈ 1 (high uncertainty)
-
-
 ## Experiments:
 * Datasets: MNIST, FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200
 * One vs rest approach is used during the experiments. One of the dataset is considered as in-dist and the rest as OOD datasets.
@@ -80,7 +50,6 @@ Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyI
 ## **Results**
 
 * Below are the results for MNIST as in-dist and FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200 as OOD datasets
-(using **uncertainty estimate (UE)** as the scoring function)
 
 | OOD Dataset          | AUROC  | AUPR   | FPR@95TPR | 
 | -------------------- | ------ | ------ | --------- | 
