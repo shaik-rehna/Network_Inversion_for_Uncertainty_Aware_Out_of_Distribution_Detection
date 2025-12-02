@@ -73,7 +73,7 @@ $UE = 1 - (a/b)$
 * One vs rest approach is used during the experiments. One of the dataset is considered as in-dist and the rest as OOD datasets.
 * Training happens on in-dist data and the evaluation on the OOD datasets. 
 Ex: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200
-* The code for the experiments are in the folder: [Code](./Network_Inversion_for_Uncertainty_Aware_Out_of_Distribution_Detection/CODE)
+* The code for the experiments are in the folder: [Code](./CODE)
 
 
 ## **Results**
@@ -98,7 +98,7 @@ The following metrics are reported:
 * **Avg FPR@95TPR:** **0.1814**
 
 
-* Detailed explanation and the results for all the experiments are mentioned in the report: [Report](./Network_Inversion_for_Uncertainty_Aware_Out_of_Distribution_Detection/EE451_SRE_Report.pdf)
+### Detailed explanation and the results for all the experiments are mentioned in the report: [Report](./EE451_SRE_Report.pdf)
 
 
 
