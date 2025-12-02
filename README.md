@@ -71,8 +71,9 @@ $UE = 1 - (a/b)$
 ## Experiments:
 * Datasets: MNIST, FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200
 * One vs rest approach is used during the experiments. One of the dataset is considered as in-dist and the rest as OOD datasets.
-* Training happens on in-dist data and the evaluation on the OOD datasets. 
-Ex: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200
+* Training happens on in-dist data and the evaluation on the OOD datasets.
+  
+Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200
 * The code for the experiments are in the folder: [Code](./CODE)
 
 
