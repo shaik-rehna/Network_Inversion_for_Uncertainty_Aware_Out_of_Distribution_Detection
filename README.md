@@ -98,7 +98,7 @@ The following metrics are reported:
 * **Avg FPR@95TPR:** **0.1814**
 
 
-
+* Detailed explanation and the results for all the experiments are mentioned in the report: [Report](./Network_Inversion_for_Uncertainty_Aware_Out_of_Distribution_Detection/EE451_SRE_Report.pdf)
 
 
 
