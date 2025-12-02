@@ -81,8 +81,7 @@ Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyI
 
 * Below are the results for MNIST as in-dist and FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200 as OOD datasets
 
-The final uncertainty-aware classifier is evaluated on multiple OOD datasets 
-The following metrics are reported:
+
 
 ### **OOD Detection Performance** (using **uncertainty estimate (UE)** as the scoring function)
 
