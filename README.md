@@ -80,10 +80,7 @@ Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyI
 ## **Results**
 
 * Below are the results for MNIST as in-dist and FMNIST, CIFAR10, SVHN, CIFAR100, TinyImageNet-200 as OOD datasets
-
-
-
-### **OOD Detection Performance** (using **uncertainty estimate (UE)** as the scoring function)
+(using **uncertainty estimate (UE)** as the scoring function)
 
 | OOD Dataset          | AUROC  | AUPR   | FPR@95TPR | 
 | -------------------- | ------ | ------ | --------- | 
