@@ -63,8 +63,8 @@ Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyI
 * **Avg AUPR:** **0.9526**
 * **Avg FPR@95TPR:** **0.1814**
 
-#### All Experimental code is available in the [CODE](./CODE) folder
-#### Detailed explanation and the results for all the experiments are mentioned in the report: [Report](./EE451_SRE_Report.pdf)
+* All Experimental code is available in the [CODE](./CODE) folder
+* Detailed explanation and the results for all the experiments are mentioned in the  [Report](./EE451_SRE_Report.pdf)
 
 
 
