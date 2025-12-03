@@ -1,6 +1,6 @@
 # Network Inversion for Uncertainty Aware Out-of-Distribution Detection 
 ### EE451 Supervised Research Exposition, IIT Bombay 
-#### Guide: [Prof. Amit Sethi](./https://www.ee.iitb.ac.in/web/people/amit-sethi/), IIT Bombay
+#### Guide: [Prof. Amit Sethi](https://www.ee.iitb.ac.in/web/people/amit-sethi/), IIT Bombay
 ---
 
 * This project implements **Network Inversion**(Paper: ”Network Inversion and its Applications” (https://arxiv.org/pdf/2411.17777))  as a mechanism to generate synthetic Out-of-Distribution (OOD) samples and use them to train a classifier with an explicit **garbage class**. The goal is to improve the classifier’s robustness and uncertainty awareness when encountering inputs outside the training distribution.
