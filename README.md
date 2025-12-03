@@ -1,11 +1,11 @@
 # Network Inversion for Uncertainty Aware Out-of-Distribution Detection 
-EE451 Supervised Research Exposition 
+### EE451 Supervised Research Exposition, IIT Bombay 
+#### Guide: Prof. Amit Sethi(https://www.ee.iitb.ac.in/web/people/amit-sethi/)
+---
 
 * This project implements **Network Inversion**(Paper: ”Network Inversion and its Applications” (https://arxiv.org/pdf/2411.17777))  as a mechanism to generate synthetic Out-of-Distribution (OOD) samples and use them to train a classifier with an explicit **garbage class**. The goal is to improve the classifier’s robustness and uncertainty awareness when encountering inputs outside the training distribution.
 
 * The pipeline iteratively generates OOD samples via a generator trained with inversion losses, appends them to the training set, retrains the classifier, and evaluates performance across various OOD datasets.
-
----
 
 ## **Project Overview**
 
@@ -63,7 +63,7 @@ Example: MNIST as in-dist, OOD datasests: FMNIST, CIFAR10, SVHN, CIFAR100, TinyI
 * **Avg AUPR:** **0.9526**
 * **Avg FPR@95TPR:** **0.1814**
 
-
+#### All Experimental code is available in the [CODE](./CODE) folder
 #### Detailed explanation and the results for all the experiments are mentioned in the report: [Report](./EE451_SRE_Report.pdf)
 
 
